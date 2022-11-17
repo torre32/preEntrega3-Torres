@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="llena el formulario para adoptar un amigo">
+    <title>Formulario de adopcion</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <a class="navbar-brand" href="#">MENU</a>
+            <ul class="navbar-nav justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./perrosEnAdopcion.html">Perros en adopcion</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="./formularioDeAdopcion.html">Formulario de adopcion</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="./productoSolidario.html">Producto solidario</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+    <form>
+        <fieldset>
+            <legend>
+                <span>Tamaño del animal</span>
+                <select name="Tamaño">
+                    <option value="G">grande</option>
+                    <option value="M">mediano</option>
+                    <option value="C">chico</option>
+                </select>
+            </legend>
+        </fieldset>    
+        <br>
+        <div class="container"><p>¿En que tipo de vivienda vives?</p></div>
+        <span>casa</span>
+        <input type="radio" name="vivienda" id="casa">
+        <span>Departamento</span>
+        <input type="radio" name="vivienda" id="departamento">
+        
+        <div class="container"><p>Selecciona la opcion correcta</p></div>
+        <span>Propietario</span>
+        <input type="radio" name="selecciona" id="propietario">
+        <span>Inquilino</span>
+        <input type="radio" name="selecciona" id="Inquilino">
+        
+        <div class="container"><p>En caso de alqquilar, ¿consultate previamente con el dueño de la vivienda?</p></div>
+        <span>SI,se puede</span>
+        <input type="radio" name="preguntar" id="SI,se puede">
+        <span>NO pregunte</span>
+        <input type="radio" name="preguntar" id="NO pregunte" >
+        
+        <div class="container"><p>En caso de tener otros animales ¿estan castrados?</p></div>
+        <span>SI, estan castrados</span>
+        <input type="radio" name="otros" id="SI, estan castrados">
+        <span>Algunos si y otros NO</span>
+        <input type="radio" name="otros" id="Algunos si y otros NO">
+        <span>NO estan castrados</span>
+        <input type="radio" name="otros" id="NO estan castrados" >
+        
+        <div class="container"><p>¿Estas dispuesto a adoptar al animal de por vida con conpromiso de vacunacion anual, desparasitacion y castracion?</p></div>
+        <span>si</span>
+        <input type="radio" name="estas" id="si">
+        <span>no</span>
+        <input type="radio" name="estas" id="no">
+        
+        <div class="container"><p>¿Tienes cerramientos en los balcones o rejas?</p></div>
+        <span>si</span>
+        <input type="radio" name="tienes" id="si">
+        <span>no</span>
+        <input type="radio" name="tienes" id="NO">
+        <span>NO, pero voy a colocar</span>
+        <input type="radio" name="tienes" id="NO, pero voy a colocar">
+        
+        <input type="submit" value="Enviar">   
+    </form>
+    
+</body>
+</html>
